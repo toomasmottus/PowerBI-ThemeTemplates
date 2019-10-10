@@ -1,0 +1,111 @@
+{
+	"name": "PERH Power BI Theme",
+	"dataColors": ["#D50000", "#003478", "#01B3C3", "#F3987A", "#9C9C9C", "#ECECEC"],
+	"background": "#FFFFFF",
+	"foreground": "#000000",
+    "textClasses": {
+        "label":{
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#003478"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontSize": 10,
+                        "fontFamily": "Verdana",
+                        "color": {
+                            "solid": {}
+                        }
+                    }
+                ],
+                "general": [
+                    {
+                        "responsive": true
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "grid": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "outlineColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "textSize": 12
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#003478"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#ECECEC"
+                            }
+                        },
+                        "autoSizeColumnWidth": false,
+                        "fontFamily": "Verdana",
+                        "fontSize": 12
+                    }
+                ]
+            }
+        },
+        "card": {
+			"*": {
+				"labels": [{
+					"color": { "solid": { "color": "#D50000"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0,
+					"fontSize": 40,
+					"fontFamily": "Verdana"
+				}],
+				"categoryLabels": [{
+					"show": false,
+					"color": { "solid": { "color": "#D50000"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"wordWrap": [{
+					"show": true
+				}],
+				"background": [{
+						"show": true,
+						"color": {
+							"solid": {
+								"color": "#ffffff"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				  "title": [{
+				    "show": true,
+				    "fontColor": { "solid": { "color": "#D50000" } },
+				    "background": { "solid": { "color": "#ECECEC" } },
+				    "alignment": "center",
+				    "fontSize": 18,
+				    "fontFamily": "Verdana"
+				  }],
+				  "border": [{
+				    "show": true,
+				    "color": { "solid": { "color": "#ECECEC"}}
+				  }]
+			}
+		}
+    }
+}
