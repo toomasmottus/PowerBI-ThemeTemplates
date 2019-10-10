@@ -3,6 +3,7 @@
 	"dataColors": ["#D50000", "#003478", "#01B3C3", "#F3987A", "#9C9C9C", "#ECECEC"],
 	"background": "#FFFFFF",
 	"foreground": "#000000",
+    "tableAccent": "#ECECEC",
     "textClasses": {
         "label":{
             "fontSize": 10,
